@@ -1,0 +1,35 @@
+1:"$Sreact.fragment"
+2:"/_next/static/chunks/2ikr_2tg5f1kv.js"
+3:"/_next/static/chunks/0mqgbaz6b1te_.js"
+4:"/_next/static/chunks/02jh0nme7gava.js"
+5:"/_next/static/chunks/2er3px3qp595x.js"
+6:I[98255,["$2","$3","$4","$5"],"Provedores"]
+7:"EstruturaPrincipal"
+8:I[15090,["$2","$3","$4","$5"],"$7"]
+9:I[39756,["$2","$3","$4","$5"],"default"]
+a:"/_next/static/chunks/09ob7b3d7balz.js"
+b:I[24549,["$2","$3","$4","$5","$a"],"default"]
+c:I[37457,["$2","$3","$4","$5"],"default"]
+d:I[22016,["$2","$3","$4","$5"],""]
+14:I[97367,["$2","$3","$4","$5"],"OutletBoundary"]
+15:"$Sreact.suspense"
+18:"ViewportBoundary"
+19:I[97367,["$2","$3","$4","$5"],"$18"]
+1a:"MetadataBoundary"
+1b:I[97367,["$2","$3","$4","$5"],"$1a"]
+:HL["/_next/static/chunks/304w780rd9f6j.css","style"]
+f:X
+12:X
+12:C
+13:[["children",{"s":"__PAGE__","h":160,"d":{"r":["$","$1","c",{"children":[["$","section",null,{"children":[["$","h1",null,{"children":"Página não encontrada"}],["$","p",null,{"children":"O endereço solicitado não existe."}],["$","$Ld",null,{"href":"/painel","children":"Voltar ao painel"}]]}],null,["$","$L14",null,{"children":["$","$15",null,{"name":"Next.MetadataOutlet","children":"$@16"}]}]]}],"p":"$@17","v":null,"s":"$f"}}]]
+10:[["children",{"s":"/_not-found","h":96,"d":{"r":["$","$1","c",{"children":[null,["$","$L9",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}]}]]}],"p":"$@11","v":"$12","s":"$f"},"c":"$Q13"}]]
+0:{"t":{"t":{"s":"","h":80,"d":{"r":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/304w780rd9f6j.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/2ikr_2tg5f1kv.js","async":true}],["$","script","script-1",{"src":"/_next/static/chunks/0mqgbaz6b1te_.js","async":true}],["$","script","script-2",{"src":"/_next/static/chunks/02jh0nme7gava.js","async":true}],["$","script","script-3",{"src":"/_next/static/chunks/2er3px3qp595x.js","async":true}]],["$","html",null,{"lang":"pt-BR","children":["$","body",null,{"children":["$","$L6",null,{"children":["$","$L8",null,{"children":["$","$L9",null,{"parallelRouterKey":"children","error":"$b","errorStyles":[],"errorScripts":[["$","script","script-0",{"src":"/_next/static/chunks/09ob7b3d7balz.js","async":true}]],"template":["$","$Lc",null,{}],"notFound":[["$","section",null,{"children":[["$","h1",null,{"children":"Página não encontrada"}],["$","p",null,{"children":"O endereço solicitado não existe."}],["$","$Ld",null,{"href":"/painel","children":"Voltar ao painel"}]]}],[]]}]}]}]}]}]]}],"p":"$@e","v":null,"s":"$f"},"c":"$Q10"},"h":{"r":["$","$1","h",{"children":[["$","meta",null,{"name":"robots","content":"noindex"}],["$","$L19",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","$L1b",null,{"children":[["$","div",null,{"hidden":true,"children":["$","$15",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Nexa CRM | Relacionamentos que geram resultados"}],["$","meta","1",{"name":"description","content":"CRM de demonstração desenvolvido por Caroline Augusto. Clientes, leads e oportunidades em um só lugar."}]]}]}],null]}],null]}],"p":"$@1c","v":null,"s":"$f"}},"a":"$@1d","u":"$@1e","b":"dRB0xiQYwHi3q6j0-yEjd"}
+16:null
+f:300
+1e:true
+f:C
+1d:0
+11:"$undefined"
+e:"$undefined"
+1c:"$undefined"
+17:"$undefined"

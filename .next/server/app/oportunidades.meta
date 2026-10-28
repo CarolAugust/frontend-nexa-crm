@@ -1,0 +1,34 @@
+{
+  "headers": {
+    "x-nextjs-stale-time": "300",
+    "x-nextjs-prerender": "1",
+    "x-next-cache-tags": "_N_T_/layout,_N_T_/oportunidades/layout,_N_T_/oportunidades/page,_N_T_/oportunidades"
+  },
+  "segmentPaths": [
+    "/_tree",
+    "/_full",
+    "/oportunidades/__PAGE__"
+  ],
+  "prefetchHints": {
+    "hints": 64,
+    "slots": {
+      "children": {
+        "hints": 96,
+        "slots": {
+          "children": {
+            "hints": 160,
+            "slots": null
+          }
+        }
+      }
+    }
+  },
+  "routeCache": {
+    "key": "/route-cache/APP_PAGE/9d2fbc10610e30dc6edc6e54d70567a7daf77fb95d7da85e793f08e8d3fff89b/$/oportunidades",
+    "owner": {
+      "kind": "APP_PAGE",
+      "sourceRoute": "/oportunidades/page"
+    },
+    "isFallback": false
+  }
+}

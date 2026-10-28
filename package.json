@@ -1,0 +1,6 @@
+{
+  "name": "@nexa/frontend", "version": "1.0.0", "private": true,
+  "scripts": { "dev": "next dev -p 3000", "start": "next start -p 3000", "build": "next build", "lint": "eslint src" },
+  "dependencies": { "next": "^16.0.0", "react": "^19.2.0", "react-dom": "^19.2.0", "@mui/material": "^7.0.0", "@mui/material-nextjs": "^7.0.0", "@emotion/react": "^11.14.0", "@emotion/styled": "^11.14.0", "@emotion/cache": "^11.14.0", "lucide-react": "^0.468.0", "axios": "^1.12.0" },
+  "devDependencies": { "typescript": "^5.9.0", "@types/node": "^22.0.0", "@types/react": "^19.0.0", "@types/react-dom": "^19.0.0", "eslint": "^9.0.0", "eslint-config-next": "^16.0.0" }
+}

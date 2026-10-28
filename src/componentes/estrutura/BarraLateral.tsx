@@ -1,0 +1,15 @@
+'use client';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { Box, Typography } from '@mui/material';
+import { LayoutDashboard, Users, ContactRound, Handshake, ArrowUpRight, Sparkles, Layers } from 'lucide-react';
+const rotas = [{ caminho: '/painel', titulo: 'Visão geral', icone: LayoutDashboard }, { caminho: '/clientes', titulo: 'Clientes', icone: Users }, { caminho: '/leads', titulo: 'Leads', icone: ContactRound }, { caminho: '/oportunidades', titulo: 'Oportunidades', icone: Handshake }];
+export function BarraLateral({ aoNavegar }: { aoNavegar?: () => void }) {
+  const caminhoAtual = usePathname();
+  return <Box sx={{ width: 244, height: '100%', bgcolor: '#111827', color: '#9CA7BA', display: 'flex', flexDirection: 'column', p: 2.5 }}>
+    <Link href="/painel" onClick={aoNavegar}><Box sx={{ display: 'flex', alignItems: 'center', gap: 1.3, color: 'white', px: 1, py: 2, mb: 4 }}><Box sx={{ bgcolor: '#2563EB', p: 1, borderRadius: 2, display: 'flex' }}><Layers size={24} /></Box><Typography sx={{ fontWeight: 800, fontSize: 27, letterSpacing: '-1px' }}>nexa<span style={{ color: '#778397', fontSize: 12, marginLeft: 8, letterSpacing: 1 }}>CRM</span></Typography></Box></Link>
+    <Typography sx={{ fontSize: 10, letterSpacing: 1.7, fontWeight: 700, px: 1.5, mb: 1.5 }}>ESPAÇO DE TRABALHO</Typography>
+    <Box component="nav" aria-label="Navegação principal" sx={{ display: 'grid', gap: .8 }}>{rotas.map(({ caminho, titulo, icone: Icone }) => <Link key={caminho} href={caminho} onClick={aoNavegar} aria-current={caminhoAtual === caminho ? 'page' : undefined}><Box sx={{ display: 'flex', alignItems: 'center', gap: 1.5, px: 1.5, py: 1.5, borderRadius: 2, fontSize: 13, fontWeight: 600, bgcolor: caminhoAtual === caminho ? '#2563EB' : 'transparent', color: caminhoAtual === caminho ? '#fff' : '#9CA7BA', '&:hover': { bgcolor: caminhoAtual === caminho ? '#2563EB' : '#1c2638' } }}><Icone size={19} />{titulo}</Box></Link>)}</Box>
+    <Box sx={{ mt: 'auto', pt: 5 }}><Box sx={{ bgcolor: '#1C2638', border: '1px solid #2a364b', borderRadius: 2.5, p: 2 }}><Sparkles size={20} color="#8DAFFF" /><Typography sx={{ fontSize: 13, fontWeight: 700, color: '#fff', mt: 1 }}>Conexões que crescem.</Typography><Typography sx={{ fontSize: 11.5, lineHeight: 1.7, mt: .8 }}>Organize seus contatos e transforme oportunidades em resultados.</Typography></Box><Box sx={{ borderTop: '1px solid #263043', mt: 3, pt: 2.5, display: 'flex', gap: 1.3, alignItems: 'center' }}><Box sx={{ width: 34, height: 34, bgcolor: '#334155', borderRadius: '50%', color: '#fff', display: 'grid', placeItems: 'center', fontSize: 11 }}>CA</Box><Box><Typography sx={{ color: '#e4e9f2', fontSize: 12, fontWeight: 600 }}>Caroline Augusto</Typography><Typography sx={{ fontSize: 10 }}>Projeto de portfólio</Typography></Box><Box component="a" href="https://github.com/CarolAugust" target="_blank" rel="noreferrer" aria-label="GitHub de Caroline Augusto" sx={{ ml: 'auto' }}><ArrowUpRight size={17} /></Box></Box></Box>
+  </Box>;
+}
